@@ -48,10 +48,11 @@ CREATE TABLE booking (
 ```
 ### Changes
 Open DbConnection.java and update the url, userName, and passWord fields with your MySQL database credentials:
+```
 private static final String url = "jdbc:mysql://localhost:3306/busresv";
 private static final String userName = "yourUsername";
 private static final String passWord = "yourPassword";
-
+```
 ### How to run
 Run the main class BusDemo to start the application and follow the prompts to book a bus ticket.
 
